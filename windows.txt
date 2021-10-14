@@ -1,0 +1,39 @@
+#System Root (ie C:\Windows):
+
+%SystemRoot%\Tasks\**
+%SystemRoot%\Prefetch\**
+%SystemRoot%\System32\sru\**
+%SystemRoot%\System32\winevt\Logs\**
+%SystemRoot%\System32\Tasks\**
+%SystemRoot%\System32\Logfiles\W3SVC1\**
+%SystemRoot%\Appcompat\Programs\**
+%SystemRoot%\SchedLgU.txt
+%SystemRoot%\inf\setupapi.dev.log
+%SystemRoot%\System32\drivers\etc\hosts
+%SystemRoot%\System32\config\*
+
+#Program Data (ie C:\ProgramData):
+%NTFS%:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\**
+
+#Drive Root (ie C:\)
+%NTFS%:\$Recycle.Bin\**\$I*
+%NTFS%:\$Recycle.Bin\$I*
+%NTFS%:\$LogFile
+%NTFS%:\$MFT
+
+#User Profiles (ie C:\Users\*):
+%NTFS%:\Users\*\NTUser.DAT
+%NTFS%:\Users\*\NTUser.DAT.LOG1
+%NTFS%:\Users\*\NTUser.DAT.LOG2
+%NTFS%:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\**
+%NTFS%:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\**
+%NTFS%:\Users\*\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+%NTFS%:\Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\**
+%NTFS%:\Users\*\AppData\Local\Microsoft\Windows\WebCache\**
+%NTFS%:\Users\*\AppData\Local\Microsoft\Windows\Explorer\**
+%NTFS%:\Users\*\AppData\Local\Microsoft\Windows\UsrClass.dat
+%NTFS%:\Users\*\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1
+%NTFS%:\Users\*\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2
+%NTFS%:\Users\*\AppData\Local\ConnectedDevicesPlatform\**
+%NTFS%:\Users\*\AppData\Local\Google\Chrome\User Data\Default\History\**
+%NTFS%:\Users\*\AppData\Local\Microsoft\Edge\User Data\Default\History\**
